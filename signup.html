@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Signup for great deals on PC parts!</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Themesdesign" />
+
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+
+    <!-- Material Icon -->
+    <link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css" />
+
+    <!-- tinyslider -->
+    <link rel="stylesheet" href="css/tiny-slider.css">
+
+    <!-- Custom  sCss -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="58">
+    <!--Navbar Start-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top sticky" id="navbar">
+        <div class="container">
+            <!-- LOGO -->
+            <a class="logo text-uppercase" href="index.html">
+                    <img src="images/logo-light.png" alt="" class="logo-light" height="20" />
+                    <img src="images/logo-dark.png" alt="" class="logo-dark" height="20" />
+                </a>
+
+            <a href="#" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="mdi mdi-menu"></i>
+                </a>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto navbar-center mt-lg-0 mt-2" id="navbar-navlist">
+                    <li class="nav-item">
+                        <a href="https://pcsales.io/index.html" class="nav-link" id="scrollElement">Home</a>
+                    </li>
+                </ul>
+                <a href="https://pcsales.io/signup.html" class="btn btn-info btn-sm navbar-btn my-lg-0 my-2">Sign Up</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero section Start -->
+    <section class="hero-4 position-relative align-items-center justify-content-center d-flex" style="background-image: url(images/hero-4-bg1.jpg);" id="home">
+        <div class="hero-4-overlay"></div>
+        <div class="container">
+            <div class="row position-relative">
+                <div class="col-lg-7 col-md-5">
+                    <div class="hero-4-content mt-md-5">
+                        <h1 class="hero-4-title fw-bold">Get Updates</h1>
+                        <h2 class="fw-normal mb-4">Receive emails when parts go on sale</h2>
+                        <span class="title-line position-relative"></span>
+                        <p class="text-muted mb-4 mt-5">
+                            Choose which types of items you'd like emails for. 
+                            <form name = "frmEmail" action ="signupland.php" method ="get">
+                                <table width = "500" border = "0" style="font-size: 20px">
+                                    <tr>
+                                        <td>
+                                            <label><input type="checkbox" name="chkCPU" value=""> CPUs</label><br>      
+                                            <label><input type="checkbox" name="chkGPU" value=""> Graphics Cards</label><br>      
+                                            <label><input type="checkbox" name="chkPSU" value=""> Power Supplies</label><br> 
+                                        </td>
+                                        <td>
+                                            <label><input type="checkbox" name="chkMOBO" value=""> Motherboards</label><br>      
+                                            <label><input type="checkbox" name="chkHDD" value=""> Hard Drives</label><br>      
+                                            <label><input type="checkbox" name="chkRAM" value=""> RAM</label><br>  
+                                        </td>
+                                        <td>
+                                            <label><input type="checkbox" name="chkSSD" value=""> Solid States</label><br>      
+                                            <label><input type="checkbox" name="chkNVME" value=""> NVMEs</label><br>      
+                                            <label><input type="checkbox" name="chkMonitor" value=""> Monitors</label><br>  
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label><input type="checkbox" name="chkSpeaker" value=""> Speakers</label><br>      
+                                            <label><input type="checkbox" name="chkCooling" value=""> Cooling</label><br>      
+                                            <label><input type="checkbox" name="chkFurniture" value=""> Furniture</label><br> 
+                                        </td>
+                                        <td>
+                                            <label><input type="checkbox" name="chkMouse" value=""> Mice</label><br>      
+                                            <label><input type="checkbox" name="chkKeyboard" value=""> Keyboards</label><br>      
+                                            <label><input type="checkbox" name="chkCables" value=""> Cables</label><br>  
+                                        </td>
+                                        <td>
+                                            <label><input type="checkbox" name="chkLaptop" value=""> Laptops</label><br>      
+                                            <label><input type="checkbox" name="chkHeadphones" value=""> Headphones</label><br>      
+                                            <label><input type="checkbox" name="chkNetworking" value=""> Networking</label><br>  
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label><input type="checkbox" name="chkStorage" value=""> Storage</label><br>      
+                                            <label><input type="checkbox" name="chkCase" value=""> Cases</label><br>      
+                                            <label><input type="checkbox" name="chkBundle" value=""> Bundles</label><br> 
+                                        </td>
+                                        <td>
+                                            <label><input type="checkbox" name="chkWebcam" value=""> Webcams</label><br>      
+                                            <label><input type="checkbox" name="chkMic" value=""> Microphones</label><br>      
+                                            <label><input type="checkbox" name="chkConsole" value=""> Consoles</label><br>  
+                                        </td>
+                                        <td>
+                                            <label><input type="checkbox" name="chkChair" value=""> Chairs</label><br>      
+                                            <label><input type="checkbox" name="chkControllers" value=""> Controllers</label><br>      
+                                            <label><input type="checkbox" name="chkOther" value=""> Other</label><br>  
+                                        </td>
+                                    </tr>
+                                </table>
+                            
+                                <br>
+
+                                <input type="email" name ="txtEmail" class="form-control mb-3 py-4" placeholder="Enter your email" />
+                                <input type="submit" class="btn btn-info"> 
+                            </form>
+                    </div>
+                </div>
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </section>
+    <!-- Hero section End -->
+
+    
+
+    <!-- Javascript -->   
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- unicons -->
+    <script src="https://unicons.iconscout.com/release/v2.1.11/script/monochrome/bundle.js"></script>
+
+    <!-- testi-slider -->
+    <script src="js/tiny-slider.js"></script>
+
+
+    <!-- app js -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
